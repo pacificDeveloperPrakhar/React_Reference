@@ -1,0 +1,19 @@
+@use "../utils/colors.scss";
+.story-container::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+  }
+  
+  .story-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+    display: none;
+  }
+  
+  .story-container::-webkit-scrollbar-thumb {
+    background: colors.$primary-light-2; /* Scrollbar color */
+    border-radius: 3px; /* Rounded corners */
+  }
+  
+  .story-container::-webkit-scrollbar-thumb:hover {
+    background: colors.$primary-light-2; /* Darker color on hover */
+  }
+  
